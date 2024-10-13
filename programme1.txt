@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+	<title>My First Webpage</title>
+	
+	<!-- FOR SEO -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0/> OR </meta>
+	
+	<!-- FOR EXTERNAL CSS -->
+	<link rel="stylesheet" href="style.css"/> <!-- OR --> </link>
+	
+	<!-- FOR FAVICON -->
+	<link rel="icon" type="image/x-icon" href="favicon.ico"/> <!-- OR --> </link>
+   </head>
+
+   <body>
+										<!-- HEADING TAGS -->
+
+
+	<h1> Heading 1 </h1>  <!-- 2em = 32px  /   1em = 16px  /  1rem = 18px -->
+	<h2> Heading 2 </h2>
+	<h3> Heading 3 </h3>
+	<h4> Heading 4 </h4>
+	<h5> Heading 5 </h5>
+	<h6> Heading 6 </h6> 
+	
+										<!-- PARAGRAPH TAG -->
+
+
+	<p> This is Paragraph </p>
+	<p> This is <br/>
+	    an <br/>
+	    example of <br/>
+	    paragraph. </p>
+	<pre> This is <br/>
+	      an
+	      example of
+	      paragraph. </pre>
+
+										<!-- DATA FORMATTING TAGS -->
+
+
+	<b> This is Bold </b> <br/>
+	<strong> This is Strong </strong> <!-- Semantic Tag / More focused than <b> on Browser --> <br/>
+
+	<i> Italic Texts </i> <br/>
+	<em> Emphasis Texts </em> <!-- Semantic Tag / More focused than <i> on Browser --> <br/>
+
+	<u> Underline Text </u> <br/>
+	<ins> Inserted Text </ins> <br/>
+
+	<p> This is <b><u> HTML </u></b> content okay </p>
+
+	<font size="5" color="green" face="Comic Sans MS">This is an Example of Font Tag </font> <!-- DEPRECATED IN VS CODE AS IT IS NOT USED IN HTML 5 -->
+	
+	<p><center> Center Texts </center></p>
+
+	<h3> Horizontal 1 </h3>
+	<hr size="5" width="55%" noshade align="left">
+	<h5> Horizontal 2 </h5>
+	<hr size="5" width="55%" noshade align="right">
+	<h3> Horizontal 3 </h3>
+	<hr size="2" width="55%" noshade align="center">
+
+	<p>H<sub>2</sub>SO<sub>4</sub></p>
+	<h3>a<sup>2</sup>+b<sup>2</sup></h3>
+	<p><i>(a+b)<sup>2</sup></i> = <b>a<sup>2</sup>+2ab+b<sup>2</sup></b></p>
+
+	<p> My favorite color is <del>Blue</del> <b>Purple</b> </p>
+
+	<h3> This is <mark>Highlighted or marked</mark> Texts. </h3>
+
+	<p> This is <big>Big Texts</big> <!-- BIG IS DEPRECATED --> and this is <small>small texts</small> </p>
+
+
+										<!-- HTML LINK -->
+
+	<a href="https://www.google.com/" target="_self" name="a_link"> About </a> </br> <!-- OPENS IN THE SAME TAB -->
+	<a href="https://www.google.com/" target="_blank" name="a_link"> About </a> <!-- OPENS IN DIFFERENT TAB --> </br>
+
+	<a href="#" name="test"> CLick Here by name attruibute. </a>
+	<br>
+	<a href="#" id="temp"> CLick Here By id attribute. </a>  <!-- Id should be unique. It cannot be repeated.-->
+	<h1>
+	  <pre>
+		A
+		B
+		C
+		D
+		E
+		F
+		G
+		H
+		I
+		J
+		K
+		L
+		M
+		N
+		O
+		P
+		Q
+		R
+		S
+		T
+		U
+		V
+		W
+		X
+		Y
+		Z
+		 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+		Velit officiis, libero a provident nihil temporibus repellendus optio laborum. 
+		Debitis non harum nobis doloremque, accusamus ad consectetur quis! 
+		Corporis, excepturi 
+		voluptatem!
+	  </pre>
+	</h1>
+	<a href="#test"> Scroll To Top by name attribute. </a>
+	<br>
+	<a href="#temp"> Scroll To Top by id attribute. </a>
+	<br>
+	<br>
+
+
+										<!-- HTML IMG TAG-->
+
+	<img src="1.jpg" width="150" height="175" alt="test image" align="right" border="5"/> <!--  align can be = left, right, top, bottom, middle-->
+	<br>
+
+
+										<!-- HTML LISTS-->
+										 
+	
+	<br>
+	Unordered List 1
+	<ul>
+		<li>Apple</li>
+		<li>Orange</li>
+		<li>Watermelon</li>
+	</ul>                       
+	
+	
+	Unordered List 2
+	<ul type="square">
+		<li>Type 1</li>
+		<li>Type 2</li>
+		<li>Type 3</li>
+	</ul>           
+
+	
+	Unordered List 3
+	<ul type="circle">
+		<li>Test 1</li>
+		<li>Test 2</li>
+		<ul type="square">
+			<li>Test 2.1</li>
+			<li>Test 2.2</li>
+			<ul type="none">
+				<li>Test 2.2.1</li>
+			</ul>
+		</ul>
+	</ul>        
+	
+	Ordered List 1
+	<ol>
+		<li>Type 1</li>
+		<li>Type 2</li>
+		<li>Type 3</li>
+	</ol>
+
+	Ordered List 2
+	<ol type="A" start="25">
+		<li>Type 1</li>
+		<li>Type 2</li>
+		<li>Type 3</li>
+	</ol>
+
+	Ordered List 3
+	<ol type="i" reversed>
+		<li>Type 1</li>
+		<li>Type 2</li>
+		<li>Type 3</li>
+	</ol>
+
+	<b><u>List Practice</u></b>
+	<ol type="A" start="4">
+		<li>List 1</li>
+		<li>List 2</li>
+			<ul type="square">
+				<li>List 2.1</li>
+				<li>List 2.2</li>
+					<ol type="I" reversed>
+						<li>List 2.2.1</li>
+						<li>List 2.2.2</li>
+						<li>List 2.2.3</li>
+					</ol>
+			</ul>
+		<li>List 3</li>
+			<ul type="none">
+				<li>List 3.1</li>
+				<li>List 3.2</li>
+			</ul>
+		<li>List 4</li>
+			<ul type="disc">
+				<li>List 4.1</li>
+					<ol type="A" start="27" reversed>
+						<li>List 4.1.1</li>
+						<li>List 4.1.2</li>
+					</ol>
+				<li>List 4.2</li>
+			</ul>
+	</ol>
+
+	DEFINITION LIST
+	<!-- <dd></dd>  <dl></dl>  <dt></dt> -->
+	 <dl>
+		<dt>HTML</dt>
+		<dd>Hyper Text Markup Language</dd>
+		
+		<dt>CSS</dt>
+		<dd>Cascading Style Sheets</dd>
+
+		<dt>JS</dt>
+		<dd>JavaScript</dd>
+	 </dl>
+	 <br>
+	 <br>
+
+
+										<!-- HTML TABLES-->
+
+
+	 <table border="5" align="center">
+		<tr>
+			<th>Roll Number</th>
+			<th>Name</th>
+			<th>Email ID</th>
+		</tr>
+
+		<tr>
+			<td align="Center">1</td>
+			<td>ABC</td>
+			<td>ABC@gmail.com</td>
+		</tr>
+
+		
+		<tr>
+			<td align="Center">2</td>
+			<td>XYZ</td>
+			<td>XYZ@gmail.com</td>
+		</tr>
+
+		
+		<tr>
+			<td align="Center">3</td>
+			<td>PQR</td>
+			<td>PQR@gmail.com</td>
+		</tr>
+	 </table>
+	 <br>
+	 <br>
+
+
+	 <table border="5" cellspacing="3" cellpadding="5" bgcolor="pink" width="50%" align="center">
+		
+		<caption>Table 1</caption>
+		
+		<thead>
+			<tr><th>Name</th><th>Cost</th></tr>
+		</thead>
+
+		<tbody>
+			<tr><td>abc</td><td>50</td></tr>
+			<tr><td>xyz</td><td>80</td></tr>
+		</tbody>
+
+		<tfoot>
+			<tr><td align="center"><b>Total</b></td><td align="center">130</td></tr>
+		</tfoot>
+	 </table>
+	 <br><br>
+
+	 <table border="3" cellpadding="15" align="center">
+		<tr>
+			<td rowspan="2">A</td>
+			<td>B</td>
+		</tr>
+
+		<tr>
+			<td>C</td>
+		</tr>
+	 </table>
+	 <br><br>
+
+	 <table border="3" cellpadding="15" align="center">
+		<tr>
+			<td colspan="2" align="center">A</td>
+		</tr>
+
+		<tr>
+			<td>B</td>
+			<td>C</td>
+		</tr>
+	 </table>
+	 <br><br>
+
+	 <table border="3" rules="all" cellpadding="15" align="center" bgcolor="pink">
+		<caption>My Practice Table</caption>
+		<thead>
+		<tr>
+			<th>Name</th>
+			<th>Roll No.</th>
+			<th>Enrollment No</th>
+			<th>Subjects</th>
+			<th>Marks</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr>
+			<td rowspan="3">Devam</td>
+			<td>123</td>
+			<td>124151125545</td>
+			<td>maths</td>
+			<td>100</td>
+		</tr>
+
+		<tr>
+			<td>Abc</td>
+			<td>135</td>
+			<td>432141472348</td>
+			<td>Java</td>
+			<td>95</td>
+		</tr>
+
+		<tr>
+			<td>Xyz</td>
+			<td>155</td>
+			<td>489423479742</td>
+			<td>HTML</td>
+			<td>95</td>
+		</tr>
+	</tbody>
+	 </table>
+	 <br><br>
+
+	 <table border="3" width="50%" align="center" cellpading="15" cellspacing="5">
+		<caption><font size="6">Example 1</font></caption>
+		<tbody align="center">
+		<tr>
+			<td rowspan="2" bgcolor="yellow">A</td>
+			<td bgcolor="lightgreen">B</td>
+			<td rowspan="3" bgcolor="yellow">D</td>
+			<td colspan="2" bgcolor="pink">E</td>
+			<td bgcolor="lightblue">F</td>
+		</tr>
+
+		<tr>
+			<td bgcolor="lightblue">C</td>
+			<td rowspan="2" bgcolor="lightblue">G</td>
+			<td rowspan="2" bgcolor="lightblue">H</td>
+			<td rowspan="2" bgcolor="lightblue">I</td>
+		</tr>
+
+		<tr>
+			<td colspan="2" bgcolor="pink">J</td>
+		</tr>
+
+		<tr>
+			<td colspan="3" bgcolor="lightgreen">K</td>
+			<td bgcolor="yellow">L</td>
+			<td colspan="2" bgcolor="pink">M</td>
+		</tr>
+		</tbody>
+	 </table>
+	 <br><br>
+
+	 <table border="3" width="50%" align="center" cellpadding="15" rules="all">
+		<caption><font size="6">Example 2</font></caption>
+		<tbody align="center">
+		<tr>
+			<td colspan="2">5<sup>th</sup> Monthly Sales Report</td>
+			<td><img src="https://cdn.britannica.com/97/1597-050-008F30FA/Flag-India.jpg" alt="Flag of India" width="100"></td>
+		</tr>
+
+		<tr>
+			<td bgcolor="pink"><strong>Region</strong></td>
+			<td bgcolor="pink"><strong>Product</strong></td>
+			<td bgcolor="pink"><strong>Sales</strong></td>
+		</tr>
+
+		<tr>
+			<td rowspan="3" bgcolor="cyan"><font color="darkblue" size="6">North India</font></td>
+			<td bgcolor="yellow">Product A</td>
+			<td bgcolor="yellow">5000</td>
+		</tr>
+
+		<tr>
+			<td bgcolor="yellow">Product B</td>
+			<td bgcolor="yellow">3000</td>
+		</tr>
+
+		<tr>
+			<td bgcolor="yellow">Product C</td>
+			<td bgcolor="yellow">4000</td>
+		</tr>
+
+		<tr>
+			<td rowspan="2" bgcolor="lightgreen"><font color="darkblue" size="6"><em>South India</em></font></td>
+			<td bgcolor="yellow">Product A</td>
+			<td bgcolor="yellow">6000</td>
+		</tr>
+
+		<tr>
+			<td bgcolor="yellow">Product B</td>
+			<td bgcolor="yellow"><del>3500</del> <u>3550</u></td>
+		</tr>
+
+		<tr></tr>
+
+		<tr></tr>
+		</tbody>
+
+		<tfoot>
+			<tr>
+				<td colspan="2" bgcolor="lightgrey"><strong>Total Sales</strong></td>
+				<td bgcolor="darkgrey"><strong>21500</strong></td>
+			</tr>
+		</tfoot>
+	 </table>
+	 <br><br>
+
+	 <table align="center" width="200" height="200" border="1" cellspacing="2">
+		<caption><font color="Blue" size="6"><strong>Example-5</strong></font></caption>
+		<tbody>
+			<tr>
+				<td colspan="3" bgcolor="Red"></td>
+				<td bgcolor="Blue" rowspan="2"></td>
+			</tr>
+
+			<tr>
+				<td rowspan="2" bgcolor="darkgreen"></td>
+				<td bgcolor="grey"></td>
+			</tr>
+
+			<tr>
+				<td colspan="3" bgcolor="yellow"></td>
+			</tr>
+		</tbody>
+	 </table>
+	 <br><br>
+
+	 <table width="45" cellpadding="15" border="11" rules="all" bgcolor="cyan" align="center">
+		<caption>Employee Information</caption>
+		<tbody align="center">
+		<tr>
+			<th>Position</th>
+			<th>Name</th>
+			<th>City</th>
+		</tr>
+
+		<tr>
+			<td>Sales <br> Manager</td>
+			<td>
+				<ol type="I">
+					<li>ABC</li>
+					<li>XYZ</li>
+				</ol>
+			</td>
+			<td>
+				<ol type="A">
+					<li>India</li>
+					<li>USA</li>
+				</ol>
+			</td>
+		</tr>	
+	</tbody>
+	 </table>
+   </body>
+</html>
