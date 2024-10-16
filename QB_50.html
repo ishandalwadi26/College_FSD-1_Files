@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .form-container {
+            border: 2px solid black;
+            padding: 20px;
+            width: 300px;
+            text-align: left;
+        }
+        h2 {
+            text-align: center;
+            border-bottom: 2px solid black;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container"  style="background-color: #f1eded;">
+
+        <h2>Signup</h2>
+        <form action="#" method="post"  >
+            <!-- Username -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter User Name" required><br><br>
+
+            <!-- Password -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter Strong Password"><br><br>
+
+            <!-- Gender -->
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br><br>
+
+            <!-- Area of Interest (Checkboxes) -->
+            <label>Area of Interest:</label><br>
+            <input type="checkbox" id="ds" name="interest" value="DS">
+            <label for="ds">DS</label>
+            <input type="checkbox" id="dbms" name="interest" value="DBMS">
+            <label for="dbms">DBMS</label>
+            <input type="checkbox" id="cn" name="interest" value="CN">
+            <label for="cn">CN</label>
+            <input type="checkbox" id="fullstack" name="interest" value="Full Stack">
+            <label for="fullstack">Full Stack</label><br><br>
+
+            <!-- Department (Dropdown) -->
+            <label for="department">Department:</label><br>
+            <select id="department" name="department" required>
+                <option value="">Select Department</option>
+                <option value="IT">IT</option>
+                <option value="CSE">CSE</option>
+                <option value="ECE">ECE</option>
+                <option value="EEE">EEE</option>
+            </select><br><br>
+
+            <!-- Address -->
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address" rows="4" cols="25" required></textarea><br><br>
+
+            <!-- File Upload -->
+            <label for="cv">Upload CV:</label>
+            <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required><br><br>
+
+            <!-- Date -->
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Add Your E-Mail"><br><br>
+
+            <!-- Submit and Reset Buttons -->
+            <input type="submit" value="Click Me">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+
+</body>
+</html>
