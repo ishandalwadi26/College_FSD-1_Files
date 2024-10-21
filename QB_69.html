@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create a Free Account</title>
+</head>
+<body>
+
+    <h2>Create a Free Account</h2>
+
+    <!-- Account Details Section -->
+    <fieldset>
+        <legend>Account Details</legend>
+
+        <label for="email">Email*:</label>
+        <input type="email" id="email" name="email" required> &nbsp;
+
+        <label for="password">Password*:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="repeat_email">Repeat email*:</label>
+        <input type="email" id="repeat_email" name="repeat_email" required> &nbsp;
+
+        <label for="repeat_password">Repeat password*:</label>
+        <input type="password" id="repeat_password" name="repeat_password" required>
+
+    </fieldset><br>
+
+    <!-- Personal Details Section -->
+    <fieldset>
+        <legend>Personal Details</legend>
+
+        <label for="name">Name*:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="phone">Phone*:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="street">Street:</label>
+        <input type="text" id="street" name="street"><br><br>
+
+        <label for="city">City*:</label>
+        <input type="text" id="city" name="city" required><br><br>
+
+        <label for="country">Country*:</label>
+        <select id="country" name="country" required>
+            <option value="US">United States</option>
+            <option value="UK">United Kingdom</option>
+            <option value="Canada">Canada</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+
+        <label for="website">Website:</label>
+        <input type="url" id="website" name="website"><br><br>
+
+        <!-- Right side details -->
+        <label for="gender">Gender*:</label>
+        <input type="radio" id="male" name="gender" value="Male" required> Male
+        <input type="radio" id="female" name="gender" value="Female"> Female<br><br>
+
+        <label for="birthdate">Birthdate*:</label>
+        <select id="birthdate" name="birthdate" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <!-- You can add more days as required -->
+        </select> &nbsp;
+
+        <select id="birthyear" name="birthyear" required>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <!-- You can add more years as required -->
+        </select><br><br>
+
+        <label for="nationality">Nationality*:</label>
+        <select id="nationality" name="nationality" required>
+            <option value="American">American</option>
+            <option value="British">British</option>
+            <option value="Canadian">Canadian</option>
+            <!-- Add more nationality options if needed -->
+        </select><br><br>
+
+        <label for="children">Children*:</label>
+        <input type="checkbox" id="children" name="children">
+
+    </fieldset><br>
+
+    <!-- Terms and Mailing Section -->
+    <fieldset>
+        <legend>Terms and Mailing</legend>
+
+        <input type="checkbox" id="privacy" name="privacy" required>
+        <label for="privacy">I accept the <a href="#">Privacy Policy</a></label><br><br>
+
+        <input type="checkbox" id="offers" name="offers">
+        <label for="offers">I want to receive personalized offers for your site</label>
+
+    </fieldset><br>
+
+    <!-- Submit and Reset buttons -->
+    <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
