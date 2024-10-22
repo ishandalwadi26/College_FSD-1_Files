@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+</head>
+<body>
+    <h2 align="center">User Registration Form</h2>
+    <hr width="20%">
+    <hr width="20%">
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="fullName">Full Name:</label><br>
+            <input type="text" id="fullName" name="fullName" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" required><br><br>
+
+            <label for="mobile">Mobile Number:</label><br>
+            <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br><br>
+
+            <label for="birthDate">Birth Date:</label><br>
+            <input type="date" id="birthDate" name="birthDate" required><br><br>
+
+            <label for="hobbies">Hobbies:</label><br>
+            <input type="checkbox" id="hobby1" name="hobbies" value="reading">
+            <label for="hobby1">Reading</label><br>
+            <input type="checkbox" id="hobby2" name="hobbies" value="traveling">
+            <label for="hobby2">Traveling</label><br>
+            <input type="checkbox" id="hobby3" name="hobbies" value="sports">
+            <label for="hobby3">Sports</label><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Educational Details</legend>
+            <label for="sscPercentage">SSC Percentage:</label><br>
+            <input type="number" id="sscPercentage" name="sscPercentage" required min="0" max="100"><br><br>
+
+            <label for="hscPercentage">HSC Percentage:</label><br>
+            <input type="number" id="hscPercentage" name="hscPercentage" required min="0" max="100"><br><br>
+
+            <label for="branch">Branch:</label><br>
+            <select id="branch" name="branch" required>
+                <option value="" hidden>Select Branch</option>
+                <option value="CE">CE</option>
+                <option value="IT">IT</option>
+                <option value="CSE">CSE</option>
+                <option value="CST">CST</option>
+                <option value="AIML">AIML</option>
+            </select><br><br>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
