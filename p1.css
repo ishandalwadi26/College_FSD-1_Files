@@ -1,0 +1,30 @@
+.p{
+    color: olivedrab;
+    text-transform: capitalize;
+    font-family: cursive;
+    font-size: x-large;
+    text-align: center;
+}
+
+h3.p{
+    font-size: small;
+    text-align: center;
+    background-image: url(back2.jpg.jfif);
+    background-repeat:initial;
+
+}
+
+p{
+    font-size: large;
+    color: orange;
+    background-color: #3d7a31;
+}
+
+#p{
+    color: #af1455;
+    text-decoration: dotted;
+    text-align: center;
+    text-transform:uppercase;
+    background-image: url("back.jpg");
+}
+
