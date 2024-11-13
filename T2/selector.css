@@ -1,0 +1,75 @@
+/* ELEMENT SELECTORS */
+h1,h3,p{
+    text-align: center;
+}
+
+h3{
+    color: blueviolet;
+    font-size: 55px;
+}
+
+p{
+    color: darkblue;
+    font-size: 35px;
+}
+
+body{
+    background-color: blanchedalmond;
+    background-image: url("beige_gradient.jpg");
+    object-fit: fill;
+}
+
+/* ID SELECTORS */
+/* Id shoud be unique! */
+#biodata_heading_id{
+    text-align: left;
+    color: darkolivegreen;
+    font-size: 35px;
+}
+
+#data{
+    color: darkblue;
+    text-align: left;
+    font-size: 22px;
+    font-family: cursive;
+}
+
+/* CLASS SELECTORS */
+.Contact_Details{
+    text-align: left;
+    color: darkolivegreen;
+    font-size: 35px;
+}
+
+p.Contact_Details{
+    color: darkblue;
+    text-align: left;
+    font-size: 22px;
+    font-family: cursive;
+}
+
+/* ATTRIBUTE SELECTORS */
+li[class] {
+    font-size: 250%;
+  }
+  
+li[class="a"] {
+    background-color: yellow;
+  }
+  
+li[class ~= "a"] {
+    color: red;
+  }
+
+/*
+USAGE OF ~= OPERATOR IN CSS :-
+
+<li class="a">Item 1</li>            <!-- Matches, because the class is exactly "a" -->
+<li class="b a c">Item 2</li>        <!-- Matches, because "a" is one of the space-separated words in the class -->
+<li class="something a anything">Item 3</li> <!-- Matches, because "a" is part of the class list -->
+
+*/
+
+input.i{
+    background-color: darkcyan;
+}

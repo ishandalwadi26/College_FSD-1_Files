@@ -1,0 +1,37 @@
+/* text-indent : to give space at the starting of a paragraph */
+/* text-decoration : to give line up, strike-through and below some text */
+/* text-transform : to transform text to Uppercase Lowercase or Capitalize */
+/* text-align : to align the text to left, right, center and justify */
+/* font-family : to change the font style of the text */
+
+.para{
+    text-indent: 25px;  
+    text-decoration: overline underline line-through;
+}
+
+.p1{
+    text-indent: -40px;
+    text-transform: capitalize;
+    text-align: inherit;
+}
+
+.p2{
+    text-indent: 35px;
+    text-decoration: overline;
+    text-transform: lowercase;
+    text-align: right;
+}
+
+.p3{
+    text-decoration: line-through;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.a1{
+    text-decoration: underline;
+}
+
+.a2{
+    text-decoration: none;
+}
