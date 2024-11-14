@@ -1,0 +1,51 @@
+.Container{
+    height: 800px;
+    margin-top: 50px;
+    border: 1px solid black;
+    position: relative;
+    background-color: blanchedalmond;
+}
+
+.Container1{
+    margin-top: 30px;
+    height: 10000px;
+    border: 2px solid;
+}
+
+.test{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+#test1{
+    background-color: aqua;
+}
+
+#test2{
+    background-color: pink;
+    position: relative;
+    top: 150px;
+    left: 40px;
+}
+
+#test3{
+    background-color: blue;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#test4{
+    background-color: green;
+    position: fixed;
+    top: 50%;
+    right: 0px;
+}
+
+#test5{
+    background-color: yellow;
+    position: sticky;
+    left: 30px;
+    top: 0px;
+}

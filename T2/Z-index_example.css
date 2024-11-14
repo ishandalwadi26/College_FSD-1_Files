@@ -1,0 +1,28 @@
+.Box{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    font-size: large;
+}
+
+.b1{
+    background-color: red;
+    z-index: 1;
+    left: 30px;
+    top: 100px;
+}
+
+.b2{
+    background-color: yellow;
+    z-index: 1;
+    left: 100px;
+    top: 220px;
+}
+
+.b3{
+    background-color: blue;
+    z-index: 0;
+    left: 140px;
+    top: 0px;
+}

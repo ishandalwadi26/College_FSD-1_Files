@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="w1.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="#" method="post" class="signup-form">
+            <h2>Signup Form</h2>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+            <label for="sports">Choose your favorite sport:</label>
+            <select id="sports" name="sports">
+                <option value="cricket">Cricket</option>
+                <option value="hockey">Hockey</option>
+                <option value="badminton">Badminton</option>
+                <option value="tennis">Tennis</option>
+            </select>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male"><label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female"><label for="female">Female</label>
+
+            <button type="submit" class="btn">Submit</button>
+            <button type="reset" class="btn">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
