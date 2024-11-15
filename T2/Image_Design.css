@@ -1,0 +1,35 @@
+#img1{
+    border-radius: 22px;
+    border: 5px solid white;
+}
+
+#img2{
+    border-radius: 50%;
+    width: 300px;
+    margin: 20px;
+}
+
+#img3{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#img4{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#img5{
+    max-width: 100%;
+    height: auto;
+}
+
+#img6{
+    opacity: 60%;
+}
+
+img:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
