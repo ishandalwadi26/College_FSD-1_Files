@@ -1,0 +1,8 @@
+.d1{
+    column-count: 4;
+    column-gap: 20px;
+    column-rule-style: dashed;
+    column-rule-width: 2px;
+    column-rule-color: aquamarine;
+    text-align: left;
+}

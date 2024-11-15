@@ -1,0 +1,125 @@
+.d1{
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.d1:hover{
+    transform: translate(80px,100px);
+}
+
+.d2{
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    margin: 20px;
+}
+  
+.d2:hover {
+    transform: rotate(50deg);
+}
+
+.d3{
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    margin: 20px;
+}
+  
+.d3:hover {
+    transform: rotate(-30deg);
+}
+
+.d4{
+    margin: 100px;
+    width: 200px;
+    height: 60px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.d4:hover{
+    transform: scale(2,2.5);
+}
+
+.d5{
+    margin: 40px;
+    width: 200px;
+    height: 60px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.d5:hover{
+    transform: scale(0.5,0.3);
+}
+
+.d6{
+    margin: 100px;
+    width: 200px;
+    height: 50px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.d6:hover{
+    transform: scaleX(2);
+}
+
+.d7{
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.d7:hover{
+    transform: scaleX(0.5);
+}
+
+.d8{
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.d8:hover{
+    transform: scaleY(3);
+}
+
+.d9{
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.d9:hover{
+    transform: scaleY(0.5);
+}
+
+.d10{
+    margin: 40px;
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+  
+.d10:hover{
+    transform: skew(40deg,10deg);
+    /*transform: skew(-40deg,10deg);
+    transform: skew(0,10deg); 
+    transform: skewY(40deg);
+    transform: skew(30deg,0); 
+    transform: skewX(40deg)
+    transform: skew(40deg);*/
+}
