@@ -1,0 +1,85 @@
+.div1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    animation-name: ishan;
+    animation-duration: 5s;
+    animation-direction: normal;
+    animation-iteration-count: 5; /*Normal means left to right*/
+    animation-delay: 2s;
+    text-align:center;
+}
+
+@keyframes ishan {
+    0% {background-color: black;
+    height: 300px;} 
+    20%{background-color: blueviolet;}
+    50%{background-color: pink;
+        width: 200px; height: 200px;}
+    30%{background-color: yellowgreen;}
+}
+
+.div2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+  
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Basic styles for the body */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container to hold the letter */
+  .animation-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* The letter that will move */
+  .letter {
+    font-size: 100px;
+    font-weight: bold;
+    position: absolute;
+    animation: moveRight 2s infinite alternate;
+  }
+  
+  /* Keyframes to move the letter */
+  @keyframes moveRight {
+    0% {
+      left: 0;
+      transform: scale(1); /* Initial size */
+    }
+    50% {
+      left: 50%;
+      transform: scale(1.5); /* Slightly bigger at the middle */
+    }
+    100% {
+      left: 100%;
+      transform: scale(1); /* Return to normal size */
+    }
+  }
+  
