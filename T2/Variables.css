@@ -1,0 +1,18 @@
+:root{ /* for Global*/
+    --b: #1234EE;
+    --all:solid dashed dotted double;
+    --c:center;
+    --b1: 1px solid var(--b);
+}
+
+p{
+    --c:center; /*Its a Local*/
+    --b:brown;
+    border-style: var(--all);
+    border: var(--b1);
+}
+
+h1{
+    color: var(--b);
+    text-align: var(--c);
+}
