@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Progress Bar </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="progress">       <!-- Simple -->
+            <div class="progress-bar bg-danger" style="width:50%"> 50% </div>    <!-- by default color Blue -->
+        </div>
+        <br><br>
+        <div class="progress">       <!-- Striped -->
+            <div class="progress-bar progress-bar-striped" style="width:50%"> 50% </div>    
+        </div>
+        <br><br>
+        <div class="progress">       <!-- Animated -->
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:20%"> 20% </div>
+        </div>
+        <br><br>      
+        <div class="progress">       <!-- Mix masala -->
+            <div class="progress-bar bg-danger" style="width:20%"> 20% </div>
+            <div class="progress-bar progress-bar-striped" style="width:50%"> 50% </div> 
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:30%"> 30% </div>
+        </div><br><br>
+
+        <div class="progress">       <!-- Mix masala -->
+            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width:40%"> 40% </div>
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:20%"> 20% </div> 
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:30%"> 30% </div><br><br>
+        </div>
+        HTML
+        <div class="progress-bar bg-white">
+            <span class="progress bg-danger" style="width: 5%;"></span>
+        </div>
+
+        CSS
+        <div class="progress-bar bg-white">
+            <span class="progress bg-success" style="width: 5%;"></span>
+        </div>
+
+        Bootstrap
+        <div class="progress-bar bg-white">
+            <span class="progress bg-warning" style="width: 5%;"></span>
+        </div>
+    </div>
+</body>
+</html>
+
+<!--  Progress Bar
+  class = progress
+  class = progress-bar
+  
+  Type :- simple , striped , Animated     -->
